@@ -1,0 +1,217 @@
+:root{
+    display: flex;
+    -ms-flex-align: center;
+    
+    flex-wrap: wrap;
+ }
+ .corpo-calcolatrice{
+    width: 310px; 
+        height: 500px; 
+        background-color: rgb(30, 0, 255);
+        flex-grow: 500px;
+       margin:  0 auto;
+       margin-bottom: 5%;
+       border-radius: 15px;
+ }
+ body{
+    color: rgba(225, 255, 0, 0.675);
+    background:  linear-gradient(to right,rgba(27, 136, 190, 0.985), green);
+    background: linear-gradient(to top right,rgba(27, 136, 190, 0.985), green, rgb(187, 71, 90));
+ }
+
+   
+ .boh{
+   color: lightgreen;
+   position: absolute;
+   bottom: 0%;
+   margin: 0 auto;}
+
+  .container{
+   height: 15px;
+   width:  70px;
+   background-color: rgba(187, 71, 90, 0);
+   border-radius: 200px;
+   top: 0%;
+   position: absolute;
+   right: 0%;
+   display: flex;
+   align-items: flex-end;
+  
+  }
+  
+   .switch{
+      background-color: rgb(26, 255, 0);
+      height: 15px;
+   width: 70px;
+   border-radius: 200px;
+   cursor: pointer;
+position: relative;
+transition: 0.2s;
+left: 30%;
+margin-right: 30%;}
+   
+   .switch::before{
+position:absolute;
+content: "";
+background-color: white;
+width: 14px;
+height: 15px;
+border-radius: 250px;
+margin: 5px;
+border-top: 20px;
+top: -5px;
+left: -3px;
+transition: 0.2s;
+   }
+   input:checked + .switch{
+      background-color: rgb(12, 0, 139);
+   }
+   input:checked + .switch::before { 
+      transform: translateX(30px);
+   }
+input{
+display: none;
+}
+ h3{
+   left: 0%;
+  }
+ .tasti button {
+   padding: 10px;
+   font-size: 20px;
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   cursor: pointer;
+   background-color: cyan;
+  
+  }
+
+.tasti button:hover {
+   background-color: #026460;
+}
+
+.tasti button:active {
+   background-color: #013a55d0;
+}
+.tasto1{
+   position: absolute;
+   top: 25%;
+   right: 57%;
+}
+.tasto2{
+   position: absolute;
+   top: 25%;
+   right: 54%;
+}
+.tasto3{
+   position: absolute;
+   top: 25%;
+   right: 51%;
+}
+.tasto4{
+   position: absolute;
+   top: 25%;
+   right: 48%;
+}
+.piu{
+   position: absolute;
+   top: 25%;
+   right: 45%;
+   width: 35px;
+   height: 120px;
+   border-top-left-radius: 10px; /* Aggiungi questa linea per arrotondare il bordo in alto a sinistra */
+   border-bottom-left-radius: 10px; /* Aggiungi questa linea per arrotondare il bordo in basso a sinistra */
+}
+.meno{
+   position: absolute;
+   top: 25%;
+   right: 42%;
+   height: 120px;
+   width: 35px;
+   border-top-right-radius: 10px; 
+   border-bottom-right-radius: 10px;
+}
+.tasto5 {
+   position: absolute;
+   top: 35%;
+   right: 57%;
+}
+.tasto6 {
+   position: absolute;
+   top: 35%;
+   right: 54%;
+ }
+ .tasto7{
+   position: absolute;
+   top: 35%;
+   right: 51%;
+ }
+ .tasto8{
+   position: absolute;
+   top: 35%;
+   right: 48%;
+ }
+ .tasto9{
+   position: absolute;
+   top: 45%;
+   right: 57%;
+ }
+ .tasto0{
+   position: absolute;
+   top: 45%;
+   right: 54%;
+ }
+ .punto{ 
+   position: absolute;
+   top: 45%;
+   right: 51%;
+   width: 32px;
+ }
+ .slash{
+   position: absolute;
+   top: 45%;
+   right: 48%;
+ }
+ .per{
+   position: absolute;
+   top: 45%;
+   right: 45%;
+   width: 35px;
+   height: 120px;
+   border-top-left-radius: 10px; 
+   border-bottom-left-radius: 10px;
+ }
+ .uguale{
+   position: absolute;
+   top: 45%;
+   right: 42%;
+   height: 120px;
+   width: 35px;
+   border-top-right-radius: 10px; 
+   border-bottom-right-radius: 10px;}
+.schermo{
+   background-color: rgba(30, 143, 255, 0);
+   position: absolute;
+   height: 70px;
+   width: 294px;
+   top: 13%;
+   right: 39,5%;
+   bottom: 40%;
+  padding-left: 15px;
+}
+
+.display{
+   background-color: dodgerblue;
+   top: 1%;
+   position: relative;
+   right: -17%;
+   height: 70px;
+   width: 299px;
+   right: 10px;
+  display: block;
+  font-size: 50px;   
+}
+.delete{
+   position: absolute;
+   right: 48%;
+   top: 55%;
+}
