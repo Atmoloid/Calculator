@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>me so sburrato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Vaporwave-calculator</h1> 
+  <div class="corpo-calcolatrice"></div>
+  <div class="schermo">
+  <input type="text" class="display" readonly></div>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <label for="check" class="switch"></label>
+  </div>
+  <span></span><div><h3 class="boh"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">termini e condizioni</a></h3></div>
+  <script href="script.js" src="script.js"></script><div class="tasti">
+    <button  onclick="appendToDisplay('7')" class="tasto7">7</button>
+    <button onclick="appendToDisplay('8')"class="tasto8">8</button>
+    <button onclick="appendToDisplay('9')"class="tasto9">9</button>
+    <button onclick="appendToDisplay('/')"class="slash">/</button>
+    <button onclick="appendToDisplay('4')"class="tasto4">4</button>
+    <button onclick="appendToDisplay('5')"class="tasto5">5</button>
+    <button onclick="appendToDisplay('6')"class="tasto6">6</button>
+    <button onclick="appendToDisplay('*')"class="per">*</button>
+    <button onclick="appendToDisplay('1')"class="tasto1">1</button>
+    <button onclick="appendToDisplay('2')"class="tasto2">2</button>
+    <button onclick="appendToDisplay('3')"class="tasto3">3</button>
+    <button onclick="appendToDisplay('-')"class="meno">-</button>
+    <button onclick="appendToDisplay('0')"class="tasto0">0</button>
+    <button onclick="appendToDisplay('.')"class="punto">.</button>
+    <button onclick="calculate()" class="uguale">=</button>
+      <button onclick="appendToDisplay('+')"class="piu">+</button> 
+      <button onclick="clearDisplay()" class="delete">C</button>
+</div>
+</body>
+</html>
