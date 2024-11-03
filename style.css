@@ -8,6 +8,8 @@
     width: 310px; 
         height: 500px; 
         background-color: rgb(30, 0, 255);
+        position: absolute;
+        left: 37%;
         flex-grow: 500px;
        margin:  0 auto;
        margin-bottom: 5%;
@@ -190,7 +192,6 @@ display: none;
    border-bottom-right-radius: 10px;}
 .schermo{
    background-color: rgba(30, 143, 255, 0);
-   position: absolute;
    height: 70px;
    width: 294px;
    top: 13%;
@@ -201,12 +202,11 @@ display: none;
 
 .display{
    background-color: dodgerblue;
-   top: 1%;
-   position: relative;
-   right: -17%;
+   top: 13%;
+   position: absolute;
+   left: 38%;
    height: 70px;
-   width: 299px;
-   right: 10px;
+   width: 285px;
   display: block;
   font-size: 50px;   
 }
