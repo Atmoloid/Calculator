@@ -78,8 +78,10 @@ display: none;
    left: 0%;
   }
  .tasti button {
+   height: 90px;
+   width: 60px;
    padding: 10px;
-   font-size: 20px;
+   font-size: 40px;
    background-color: #f0f0f0;
    border: 1px solid #ccc;
    cursor: pointer;
@@ -94,110 +96,41 @@ display: none;
 .tasti button:active {
    background-color: #013a55d0;
 }
-.tasto1{
+.div1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 22%;
    position: absolute;
    top: 25%;
-   right: 57%;
+   right: 40%;
 }
-.tasto2{
+.div2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 22%;
    position: absolute;
-   top: 25%;
-   right: 54%;
+   top: 40%;
+   right: 40%;
 }
-.tasto3{
+.div3{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 22%;
    position: absolute;
-   top: 25%;
-   right: 51%;
+   top: 55%;
+   right: 40%;
 }
-.tasto4{
+.div4{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 22%;
    position: absolute;
-   top: 25%;
-   right: 48%;
-}
-.piu{
-   position: absolute;
-   top: 25%;
-   right: 45%;
-   width: 35px;
-   height: 120px;
-   border-top-left-radius: 10px; /* Aggiungi questa linea per arrotondare il bordo in alto a sinistra */
-   border-bottom-left-radius: 10px; /* Aggiungi questa linea per arrotondare il bordo in basso a sinistra */
-}
-.meno{
-   position: absolute;
-   top: 25%;
-   right: 42%;
-   height: 120px;
-   width: 35px;
-   border-top-right-radius: 10px; 
-   border-bottom-right-radius: 10px;
-}
-.tasto5 {
-   position: absolute;
-   top: 35%;
-   right: 57%;
-}
-.tasto6 {
-   position: absolute;
-   top: 35%;
-   right: 54%;
- }
- .tasto7{
-   position: absolute;
-   top: 35%;
-   right: 51%;
- }
- .tasto8{
-   position: absolute;
-   top: 35%;
-   right: 48%;
- }
- .tasto9{
-   position: absolute;
-   top: 45%;
-   right: 57%;
- }
- .tasto0{
-   position: absolute;
-   top: 45%;
-   right: 54%;
- }
- .punto{ 
-   position: absolute;
-   top: 45%;
-   right: 51%;
-   width: 32px;
- }
- .slash{
-   position: absolute;
-   top: 45%;
-   right: 48%;
- }
- .per{
-   position: absolute;
-   top: 45%;
-   right: 45%;
-   width: 35px;
-   height: 120px;
-   border-top-left-radius: 10px; 
-   border-bottom-left-radius: 10px;
- }
- .uguale{
-   position: absolute;
-   top: 45%;
-   right: 42%;
-   height: 120px;
-   width: 35px;
-   border-top-right-radius: 10px; 
-   border-bottom-right-radius: 10px;}
-.schermo{
-   background-color: rgba(30, 143, 255, 0);
-   height: 70px;
-   width: 294px;
-   top: 13%;
-   right: 39,5%;
-   bottom: 40%;
-  padding-left: 15px;
+   top: 70%;
+   right: 40%;
 }
 
 .display{
@@ -211,7 +144,8 @@ display: none;
   font-size: 50px;   
 }
 .delete{
+   display: flex;
    position: absolute;
    right: 48%;
-   top: 55%;
+   top: 85%;
 }
