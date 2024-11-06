@@ -1,12 +1,12 @@
-:root{
-    display: flex;
-    -ms-flex-align: center;
-    
-    flex-wrap: wrap;
- }
- .corpo-calcolatrice{
+h1{
+   display: flex;
+   justify-content: center;
+   color: black;
+}
+.Calculator-body{
+   display: flex;
     width: 310px; 
-        height: 500px; 
+        height: 580px; 
         background-color: rgb(30, 0, 255);
         position: absolute;
         left: 37%;
@@ -22,10 +22,11 @@
  }
 
    
- .boh{
+ .tc{
    color: lightgreen;
    position: absolute;
    bottom: 0%;
+   left: 1%;
    margin: 0 auto;}
 
   .container{
@@ -77,7 +78,7 @@ display: none;
  h3{
    left: 0%;
   }
- .tasti button {
+ .tasti button:not(.delete) {
    height: 90px;
    width: 60px;
    padding: 10px;
@@ -145,7 +146,19 @@ display: none;
 }
 .delete{
    display: flex;
+   align-items: center;
+   justify-content: center;
    position: absolute;
-   right: 48%;
+   right: 40%;
    top: 85%;
+   height: 80px;
+   width: 285px;
+   padding: 10px;
+   font-size: 40px;
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   cursor: pointer;
+   background-color: cyan;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
 }
