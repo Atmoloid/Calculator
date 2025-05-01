@@ -8,3 +8,9 @@ function clearDisplay(){
 function calculate(){
     display.value = eval(display.value);
 };
+const darkModeInput = document.getElementById('darkModeInput');
+const body = document.body;
+
+darkModeInput.addEventListener("change", () => {
+  body.classList.toggle('dark-mode');
+})

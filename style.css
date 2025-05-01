@@ -16,10 +16,10 @@ h1{
        border-radius: 15px;
  }
  body{
-    color: rgba(225, 255, 0, 0.675);
-    background:  linear-gradient(to right,rgba(27, 136, 190, 0.985), green);
+    color: black;
     background: linear-gradient(to top right,rgba(27, 136, 190, 0.985), green, rgb(187, 71, 90));
- }
+    
+   }
 
    
  .tc{
@@ -43,7 +43,7 @@ h1{
   }
   
    .switch{
-      background-color: rgb(26, 255, 0);
+      background-color: grey;
       height: 15px;
    width: 70px;
    border-radius: 200px;
@@ -161,4 +161,41 @@ display: none;
    background-color: cyan;
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
+}
+
+body.dark-mode {
+   color: lightgreen; 
+   background: linear-gradient(to top right, black, rgb(41, 37, 37)); 
+   
+}
+
+body.dark-mode h1 {
+   color: white; 
+}
+
+body.dark-mode .Calculator-body {
+   background-color: darkgrey; 
+}
+
+body.dark-mode .display {
+   background-color: white; 
+   color: rgb(0, 0, 0); 
+}
+
+body.dark-mode .tasti button{
+   background-color: black; 
+   color: white; 
+   border-color: #555;
+}
+
+body.dark-mode .tasti button:hover{
+   background-color: grey;
+}
+
+body.dark-mode .tasti button:active{
+   background-color: rgb(53, 52, 52);
+}
+
+body.dark-mode .tc {
+   color: white; 
 }
